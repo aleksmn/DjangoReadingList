@@ -1,0 +1,17 @@
+
+Starting project:
+
+    pipenv install django==2.1
+
+    pipenv shell
+
+    django-admin startproject DjangoReadingList .
+
+
+    python manage.py runserver
+
+    python manage.py startapp books
+
+    python manage.py migrate
+
+    python manage.py makemigrations
