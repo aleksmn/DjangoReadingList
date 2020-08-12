@@ -25,7 +25,9 @@ SECRET_KEY = '22(gwwh*%6$bw=-sb*_t57&f2gjf8y2te2addaitme*!=)b@3^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'infinite-fortress-53802.herokuapp.com'
+]
 
 
 # Application definition
