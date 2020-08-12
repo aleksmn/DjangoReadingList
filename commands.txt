@@ -15,3 +15,13 @@ Starting project:
     python manage.py migrate
 
     python manage.py makemigrations
+
+Deployment:
+
+    pipenv install gunicorn
+
+    python manage.py collectstatic
+
+    pipenv install whitenoise
+
+    git init

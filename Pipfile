@@ -5,9 +5,13 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+pylint-django = "*"
 
 [packages]
-django = "==2.1"
+django = "==2.1.5"
+django-tastypie = "*"
+gunicorn = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <dl>
+        <dt>Заголовок</dt>
+        <dd>{{ book.title }}</dd>
+        <dt>Автор</dt>
+        <dd>{{ book.author }}</dd>
+        <dt>Рейтинг</dt>
+        <dd>{{ book.rating }}</dd>
+    </dl>
+
+{% endblock %}
